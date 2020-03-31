@@ -20,9 +20,10 @@ A two-player Battleship game using C++.
 * Follow the prompts on the screen to choose your mode, place your ships, and fire at your opponent's board.
 
 ## Features
-* Each player has three ships: the cruiser (A), des
-* Awesome feature 2
-* Awesome feature 3
+* Each player has three ships.
+* The Cheating AI already knows the coordinates of your ship, so it will hit everytime.
+* The Random AI fires randomly at the board.
+* The Hunt-Destroy AI fires randomly until there is a hit. Then, it will hit around the coordinate it hit to sink the ship.
 
 To-do list:
 * Additional input validation
